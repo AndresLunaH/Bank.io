@@ -8,6 +8,7 @@
     <script src="/app.js" ></script>
 </head>
 <body>
+    <link rel="shortcut icon" href="#">
     <nav class="login">
         <h1>Bank.io</h1>
         <h2>Iniciar Sesión</h2>
@@ -16,7 +17,7 @@
         <label for="nip">NIP</label> <br>
         <input type="password" name="nip" placeholder="ingresa contraseña" value="nip" class="redondo"><br>
         <button class="button-login" type="submit">Listo</button><br>
-        <label class="registrarse">¿Aún no tienes cuenta? registrate</label>
+        <label id="swithToReg" class="switch">¿Aún no tienes cuenta? registrate</label>
     </nav>
 
     <nav class="signin">
@@ -26,6 +27,7 @@
         <label for="nip">NIP</label> <br>
         <input type="password" name="nip" placeholder="ingresa contraseña" class="redondo" required><br>
         <button class="button-signin" type="submit">Listo</button><br>
+        <label id="swithToLogin" class="switch">¿Ya tienes cuenta? Inicia</label>
         
     </nav>
     
