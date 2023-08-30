@@ -17,7 +17,7 @@ body{
     margin: auto;
     width: 500px;
     background-color: white;
-    height: 250px;
+    height: 300px;
 }
 /* Decoración de interfaz boton log in*/
 .button-login{
@@ -61,7 +61,7 @@ color: white;}
 /* Decoración de interfaz login*/
 .signin{
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px 20px;
