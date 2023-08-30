@@ -45,9 +45,9 @@ function validatePassword(password) {
 }
 //--Asignacion de clase--//
 class Usuario{
-    constructor(id, nombre, saldo, password){
+    constructor(id, usuario, saldo, password){
         (this.id=id),
-        (this. nombre= nombre);
+        (this. usuario= usuario);
         (this, saldo= saldo);
         (this, password= password);
     }
