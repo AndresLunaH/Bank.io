@@ -61,6 +61,7 @@ color: white;}
 /* Decoración de interfaz login*/
 .signin{
     position: absolute;
+    display: none;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -70,4 +71,9 @@ color: white;}
     width: 500px;
     background-color: white;
     height: 250px;
+}
+#operations, #output{
+    color: white;
+    display: none;
+    text-align: center;
 }
