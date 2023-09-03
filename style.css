@@ -58,25 +58,7 @@ color: white;
 .button-signin:hover {
 background-color:#000000;
 color: white;}
-/* Decoración de interfaz login*/
-.signin{
-    position: absolute;
-    display: none;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 20px 20px;
-    text-align: center;
-    margin: auto;
-    width: 500px;
-    background-color: white;
-    height: 250px;
-}
-#operations, #output{
-    color: white;
-    display: none;
-    text-align: center;
-}
+
 .card-item2{
     padding: 1rem 5rem 6rem 5rem;
     background-color: #000000;
