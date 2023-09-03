@@ -14,19 +14,19 @@ const h1 = document.querySelector(".h1_card2");
 let usuarios = [
   {
       usuario: "Mali",
-      constrasena: 1234,
+      constrasena: 4321,
       saldo: 200,
   
    },
    {
       usuario: "Gera",
-      constrasena: 12345,
+      constrasena: 1010,
       saldo: 290,
   
   },
   {
       usuario: "Maui",
-      constrasena:123456,
+      constrasena:1050,
       saldo: 67,
   
   }
