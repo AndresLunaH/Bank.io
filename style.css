@@ -60,11 +60,16 @@ background-color:#000000;
 color: white;}
 
 .card-item2{
-    padding: 1rem 5rem 6rem 5rem;
-    background-color: #000000;
-    opacity: 80%;
-    border-radius: 20px;
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px 20px;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    background-color: white;
+    height: 400px;
     
     
     
@@ -93,11 +98,13 @@ ul>li{
 
 .user{
     width: 100%;
+    color: white;
     height: 50px;
     font-size: 40px;
     margin: 3rem;
 }
 .user input{
+    color: white;
     width: 70%;
     height: 70%;
     font-size: 25px;
@@ -106,6 +113,7 @@ ul>li{
 
 .password{
     width: 100%;
+    color: white;
     height: 50px;
     font-size: 40px;
     margin: 3rem;
@@ -134,6 +142,7 @@ ul>li{
 }
 .retirar_dinero{
     width: 100%;
+    color: white;
     height: 50px;
     font-size: 40px;
     margin: 3rem;
@@ -154,38 +163,59 @@ ul>li{
 }
 
 .btn_consultar_saldo{
-    background-color: rgb(6, 103, 221);
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    text-align: center;
-    size: 20rem;
-    display: block;
+    text-decoration:none;
+    font-weight:100;
+    font-size:12px;
+    color:#0f0f0f;
+    border-radius: 20px 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:#f8f7f7;
+}
+.btn_consultar_saldo:hover{
+        background-color:#000000;
+        color: white;}
+
+.btn_ingresar_dinero{
+    text-decoration:none;
+    font-weight:100;
+    font-size:12px;
+    color:#0f0f0f;
+    border-radius: 20px 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:#f8f7f7;
     
 }
-.btn_ingresar_dinero{
-    background-color: rgb(240, 79, 10);
+.btn_ingresar_dinero:hover{
+    background-color: #000000;
     color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    text-align: center;
-    size: 20rem;
-    display: block;
-    
 }
 .btn_retirar_dinero{
-    background-color: rgb(224, 10, 243);
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    text-align: center;
-    size: 20rem;
-    display: block;
+    text-decoration:none;
+    font-weight:100;
+    font-size:12px;
+    color:#0f0f0f;
+    border-radius: 20px 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:#f8f7f7;
     
 }
-.btn_cancelar_operacion{
-    background-color: rgb(255, 0, 0);
+
+.btn_retirar_dinero:hover{
+    background-color: #000000;
     color: white;
+}
+.btn_cancelar_operacion{
+    background-color: white;
+    color: black;
     font-weight: bold;
     border-radius: 5px;
     margin: 1rem;
@@ -193,4 +223,10 @@ ul>li{
     size: 20rem;
     display: block;
     
+}
+.btn_cancelar_operacion:hover{
+    background-color: red;
+    color:white;
+    font-style: bold;
+
 }
