@@ -73,7 +73,7 @@ let usuarios = [
 
     if (usuarioLogueado) {
 
-      card1.classList.add("hide");
+      card1.style.display="none";
       card2.classList.remove("hide")
       h1_card2.textContent = `BIENVENIDO(a) ${loggedUser.usuario}`;
       saldos.textContent =`TU SALDO ES: $${loggedUser.saldo}`;
