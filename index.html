@@ -16,23 +16,34 @@
         <input type="text" name="username" id="username-field" class="redondo" placeholder="Usuario"><br>
         <label id="nip">NIP</label> <br>
         <input type="password"  placeholder="Contraseña" id="password"class="redondo" required><br>
-        <!--button  type="submit" id="button-lo" class="button-login">Listo</button><br>-->
-        <input type="submit" value="Login" id="login-form-submit"><br>
-        <label id="switchToReg">¿Aún no tienes cuenta? registrate</label>
+        <button  type="submit" id="btn_login" class="button-login">Listo</button><br>
+    
     </form>
-        <div id="operations"></div>
-        <div id="output"></div>
-
-    <form class="signin">
-        <h2>Registrarse</h2>
-        <label id="usuario-text">Usuario</label><br>
-        <input type="text"id="usuario-" placeholder="ingresa Usuario" class="redondo"><br>
-        <label id="nip">NIP</label> <br>
-        <input type="passwordo"id="password2" placeholder="ingresa contraseña" class="redondo" required><br>
-        <button class="button-signin" type="submit">Listo</button><br>
-        <label id="swithToLogin">¿Ya tienes cuenta? Inicia</label>
         
-    </form>
+
+    <div class="card-item2 hide" id="card-item2">
+        <button class="btn_cancelar_operacion" id="btn_cancelar_operacion">CERRAR <br> SESION</button><div class="h1_card2" id="h1_card2"></div>
+        <ul class="bottons-operaciones">
+            <li>
+                <button class="btn_consultar_saldo" id="btn_consultar_saldo">CONSULTAR SALDO</button>
+                <p class="saldo"></p>
+            </li>
+
+            <li><button class="btn_ingresar_dinero" id="btn_ingresar_dinero">INGRESAR DINERO</button>
+                <input class="inputs" type="number" placeholder="Ingresa cantidad" id="ingresar_dinero"></input><br>
+                <button id="btn_aceptar_ingresar_dinero">ACEPTAR</button><br><br>
+            </li>
+
+            <li><button class="btn_retirar_dinero" id="btn_retirar_dinero">RETIRAR DINERO</button>
+                <input class="inputs" type="number" placeholder="Ingresa cantidad" id="retirar_dinero"></input><br>
+                <button id="btn_aceptar_retirar_dinero">ACEPTAR</button><br><br>
+            </li>
+
+            <li></li>
+        </ul>
+        
+     
+    </div>
     
 </body>
 </html>
