@@ -1,4 +1,5 @@
 
+//Responsivo de Botones//
 const btnLogin = document.getElementById("btn_login");
 const btn_consultar_saldo = document.getElementById("btn_consultar_saldo");
 const btn_ingresar_dinero = document.getElementById("btn_ingresar_dinero");
@@ -10,7 +11,7 @@ const h1 = document.querySelector(".h1_card2");
 
 
 
-
+//Asignacion de usuarios//
 let usuarios = [
   {
       usuario: "Mali",
@@ -34,7 +35,7 @@ let usuarios = [
   ];
 
 
-  
+  //Selector para login//
 
   const saldos = document.querySelector(".saldo");
 
